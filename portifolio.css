@@ -447,10 +447,145 @@ border: 2px solid #00B4D8;
   cursor: pointer;
   padding: 20px;
 }
+/* ======== RESPONSIVIDADE FLUIDA ======== */
 
-/* ===== RESPONSIVIDADE PARA TELAS MUITO PEQUENAS (<=430px) ===== */
-@media (max-width: 430px) {
-  /* HEADER */
+/* === TELAS GRANDES (notebooks e desktops grandes) === */
+@media (max-width: 1200px) {
+  .header {
+    padding: 0 30px;
+  }
+  .secao-boa-geral {
+    padding: 60px 30px;
+  }
+  .sobre-esquerda-t {
+    padding: 40px 20px;
+  }
+}
+
+/* === TABLETS E NOTEBOOKS MÉDIOS === */
+@media (max-width: 992px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #475569;
+    border-top: 2px solid #00B4D8;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .hnome {
+    font-size: 40px;
+  }
+
+  .h2nome {
+    font-size: 24px;
+  }
+
+  .secao-boa-geral {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .sobre-geral {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .projeto-flex2, .projeto-back {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 10px;
+  }
+
+  .projeto-item {
+    width: 80%;
+  }
+
+  .contato-form {
+    width: 85%;
+  }
+}
+
+/* === CELULARES GRANDES (480px a 768px) === */
+@media (max-width: 768px) {
+  .hnome {
+    font-size: 32px;
+  }
+
+  .h2nome {
+    font-size: 20px;
+  }
+
+  .pnome {
+    font-size: 14px;
+  }
+
+  .secao-boa-geral {
+    padding: 25px 15px;
+    text-align: center;
+  }
+
+  .secao-foto {
+    margin: 0 auto 20px;
+    max-width: 150px;
+    height: 150px;
+  }
+
+  .sobre-titulo {
+    font-size: 26px;
+  }
+
+  .sobre-esquerda-t, .sobre-texto-direito {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .projeto-item {
+    width: 95%;
+  }
+
+  .contato-section {
+    padding: 50px 15px;
+  }
+
+  .contato-form {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    padding: 20px;
+  }
+}
+
+/* === CELULARES PEQUENOS (até 480px) === */
+@media (max-width: 480px) {
   .header {
     flex-direction: column;
     align-items: center;
@@ -459,26 +594,14 @@ border: 2px solid #00B4D8;
 
   .header-logo {
     font-size: 16px;
-    padding: 5px 0;
-  }
-
-  .menu-toggle {
-    align-self: flex-end;
-    margin: 5px 10px 0 0;
-  }
-
-  .nav-ul {
-    gap: 12px;
-    padding: 10px 0;
   }
 
   .nav-ul a {
     font-size: 14px;
   }
 
-  /* BOAS-VINDAS */
   .hnome {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .h2nome {
@@ -489,82 +612,22 @@ border: 2px solid #00B4D8;
     font-size: 13px;
   }
 
-  .secao-boa-geral {
-    padding: 15px 10px;
-    text-align: center;
-  }
-
   .secao-foto {
     max-width: 120px;
     height: 120px;
-    margin-top: 15px;
-  }
-
-  /* SOBRE MIM */
-  .sobre-geral {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding: 15px 10px;
   }
 
   .sobre-titulo {
     font-size: 22px;
   }
 
-  .sobre-esquerda-t, .sobre-texto-direito {
-    padding: 10px 5px;
-    text-align: center;
-  }
-
-  .h-texto {
+  .h-texto, .p-texto {
     font-size: 13px;
-  }
-
-  .p-texto {
-    font-size: 12px;
-  }
-
-  .botao-secao {
-    font-size: 13px;
-    padding: 8px;
-  }
-
-  /* PROJETOS */
-  .projeto-flex2,
-  .projeto-back {
-    padding: 30px 10px;
-    gap: 20px;
-  }
-
-  .projeto-item {
-    width: 100%;
-    max-width: 100%;
-    padding: 0 5px;
   }
 
   .projeto-item button {
     font-size: 12px;
     padding: 4px 8px;
-  }
-
-  .projeto-t, .projeto-para {
-    font-size: 14px;
-    padding: 5px 0;
-  }
-
-  /* CONTATO */
-  .contato-section {
-    padding: 40px 10px;
-  }
-
-  .contato-texto h2 {
-    font-size: 1.3rem;
-  }
-
-  .contato-form {
-    width: 100%;
-    padding: 15px;
   }
 
   .contato-form input,
@@ -577,14 +640,129 @@ border: 2px solid #00B4D8;
     padding: 7px;
   }
 
-  .social-item img {
-    width: 35px;
-    height: 35px;
+  .footer {
+    font-size: 0.75rem;
+    padding: 15px;
+  }
+}
+ /* ======== CELULARES MUITO PEQUENOS (até 380px) ======== */
+@media (max-width: 380px) {
+  /* HEADER */
+  .header {
+    padding: 8px 0;
+  }
+
+  .header-logo {
+    font-size: 14px;
+  }
+
+  .menu-toggle {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .nav-ul a {
+    font-size: 13px;
+  }
+
+  /* HERO / BOAS-VINDAS */
+  .hnome {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .h2nome {
+    font-size: 16px;
+  }
+
+  .pnome {
+    font-size: 12px;
+  }
+
+  .secao-boa-geral {
+    padding: 10px;
+  }
+
+  .secao-foto {
+    max-width: 100px;
+    height: 100px;
+  }
+
+  .secao-botao {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .botao1, .botao2 {
+    font-size: 13px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  /* SOBRE MIM */
+  .sobre-titulo {
+    font-size: 20px;
+  }
+
+  .sobre-geral {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .h-texto, .p-texto {
+    font-size: 12px;
+  }
+
+  /* PROJETOS */
+  .projeto-flex2,
+  .projeto-back {
+    padding: 20px 5px;
+    gap: 10px;
+  }
+
+  .projeto-item {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .projeto-item button {
+    font-size: 11px;
+    padding: 4px 6px;
+  }
+
+  .projeto-t, .projeto-para {
+    font-size: 12px;
+    padding: 4px 0;
+  }
+
+  /* CONTATO */
+  .contato-section {
+    padding: 30px 10px;
+  }
+
+  .contato-texto h2 {
+    font-size: 1.1rem;
+  }
+
+  .contato-form {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contato-form input,
+  .contato-form textarea {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  .contato-form button {
+    font-size: 0.8rem;
+    padding: 6px;
   }
 
   /* FOOTER */
   .footer {
-    font-size: 0.75rem;
-    padding: 15px 5px;
+    font-size: 0.7rem;
+    padding: 10px;
   }
 }
