@@ -434,3 +434,157 @@ border: 2px solid #00B4D8;
 .footer strong {
   color: #00B4D8;
 }
+
+/* ===== MENU HAMBÚRGUER ===== */
+
+/* Oculta o botão em telas grandes */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+}
+
+/* ===== RESPONSIVIDADE PARA TELAS MUITO PEQUENAS (<=430px) ===== */
+@media (max-width: 430px) {
+  /* HEADER */
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+  }
+
+  .header-logo {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+  .menu-toggle {
+    align-self: flex-end;
+    margin: 5px 10px 0 0;
+  }
+
+  .nav-ul {
+    gap: 12px;
+    padding: 10px 0;
+  }
+
+  .nav-ul a {
+    font-size: 14px;
+  }
+
+  /* BOAS-VINDAS */
+  .hnome {
+    font-size: 24px;
+  }
+
+  .h2nome {
+    font-size: 18px;
+  }
+
+  .pnome {
+    font-size: 13px;
+  }
+
+  .secao-boa-geral {
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .secao-foto {
+    max-width: 120px;
+    height: 120px;
+    margin-top: 15px;
+  }
+
+  /* SOBRE MIM */
+  .sobre-geral {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 10px;
+  }
+
+  .sobre-titulo {
+    font-size: 22px;
+  }
+
+  .sobre-esquerda-t, .sobre-texto-direito {
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .h-texto {
+    font-size: 13px;
+  }
+
+  .p-texto {
+    font-size: 12px;
+  }
+
+  .botao-secao {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  /* PROJETOS */
+  .projeto-flex2,
+  .projeto-back {
+    padding: 30px 10px;
+    gap: 20px;
+  }
+
+  .projeto-item {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 5px;
+  }
+
+  .projeto-item button {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .projeto-t, .projeto-para {
+    font-size: 14px;
+    padding: 5px 0;
+  }
+
+  /* CONTATO */
+  .contato-section {
+    padding: 40px 10px;
+  }
+
+  .contato-texto h2 {
+    font-size: 1.3rem;
+  }
+
+  .contato-form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .contato-form input,
+  .contato-form textarea {
+    font-size: 0.85rem;
+  }
+
+  .contato-form button {
+    font-size: 0.85rem;
+    padding: 7px;
+  }
+
+  .social-item img {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* FOOTER */
+  .footer {
+    font-size: 0.75rem;
+    padding: 15px 5px;
+  }
+}

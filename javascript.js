@@ -19,3 +19,11 @@ const form = document.querySelector("#form-contato");
 
     window.open(url, "_blank");
   });
+
+  // ===== MENU HAMBÚRGUER =====
+const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav');
+
+menuToggle.addEventListener('click', () => {
+  nav.classList.toggle('active');
+});
