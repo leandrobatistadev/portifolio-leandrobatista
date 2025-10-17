@@ -1,47 +1,65 @@
-<h1 align="center">💻 Portfólio | Leandro Batista</h1>
+# 🌐 Portfólio | Leandro Batista
 
-<p align="center">
-  <a href="https://portifolio-leandrobatista.vercel.app" target="_blank">
-    🔗 Acesse o projeto online
-  </a>
-</p>
+> Um portfólio moderno, responsivo e elegante, desenvolvido para apresentar minha trajetória e projetos como **Desenvolvedor Front-End**.
 
 ---
 
 ## 🧠 Sobre o projeto
 
-Este é o meu portfólio profissional como **Desenvolvedor Front-End**, criado com o objetivo de apresentar minhas habilidades técnicas, experiências e projetos desenvolvidos.  
-O site foi pensado para transmitir **profissionalismo, confiança e tecnologia**, com um design limpo, responsivo e moderno.
+O **Portfólio Leandro Batista** foi criado com o objetivo de transmitir **profissionalismo, tecnologia e autenticidade**, destacando minhas habilidades, experiências e projetos de forma clara e visualmente agradável.
+
+O design foi planejado para ser **minimalista e responsivo**, proporcionando uma **experiência fluida em qualquer dispositivo**, desde desktops até smartphones.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
-As principais tecnologias usadas na construção deste projeto foram:
-
-| Tecnologia | Descrição |
-|-------------|------------|
-| **HTML5** | Estruturação semântica e acessível das páginas |
-| **CSS3** | Estilização avançada com foco em responsividade |
-| **JavaScript (Vanilla)** | Funcionalidades interativas e integração com o WhatsApp |
-| **Vercel** | Plataforma de hospedagem moderna e gratuita para deploys rápidos |
+- **HTML5** → Estrutura semântica e acessível  
+- **CSS3** → Estilo moderno com Flexbox, e animações suaves  
+- **JavaScript (puro)** → Interatividade e dinamismo  
+- **Vercel** → Hospedagem rápida e confiável
 
 ---
 
-## ✨ Principais seções do site
+## 🎨 Destaques do design
 
-- **Apresentação Pessoal** – Um resumo sobre quem sou e o que me motiva.  
-- **Projetos** – Exposição de trabalhos e desafios reais que desenvolvi.  
-- **Contato** – Formulário integrado ao WhatsApp, facilitando a comunicação direta.  
-- **Links Sociais** – GitHub, E-mail e outras formas de conexão profissional.
+- Interface **limpa e tecnológica**, com foco em usabilidade  
+- **Menu hambúrguer** funcional e responsivo  
+- Efeitos sutis de **transição e hover**  
+- Estrutura organizada em **seções bem definidas**: sobre, projetos e contato  
+- Paleta de cores em tons de **azul escuro e ciano**, transmitindo confiança e modernidade  
 
+---
 
+## 📱 Responsividade
 
-## 📬 Contato
+O site foi desenvolvido com **mobile-first design**, garantindo adaptação perfeita para:
 
-📧 **E-mail:** [leandrobatista.dev@gmail.com](mailto:leandrobatista.dev@gmail.com)  
-🐙 **GitHub:** [@leandrobatistadev](https://github.com/leandrobatistadev)  
-🌐 **Portfólio:** [portifolio-leandrobatista.vercel.app](https://portifolio-leandrobatista.vercel.app)
+- Smartphones 📱  
+- Tablets 💻  
+- Monitores grandes 🖥️  
 
+---
 
+## 💡 Objetivo
 
+Este projeto reflete meu compromisso em evoluir constantemente como **Desenvolvedor Front-End**, explorando boas práticas, performance e estética no desenvolvimento web.
+
+---
+
+## 🚀 Deploy
+
+O projeto está hospedado na Vercel:  
+👉 [https://portifolio-leandrobatista.vercel.app](https://portifolio-leandrobatista.vercel.app)
+
+---
+
+## 📩 Contato
+
+- **Nome:** Leandro Batista  
+- **Função:** Desenvolvedor Front-End  
+- **Email:** leandrobatista.dev@gmail.com  
+
+---
+
+> Criado com 💙 por **Leandro Batista**
